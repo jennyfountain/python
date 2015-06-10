@@ -22,7 +22,7 @@ def get_redis_info():
                 r_info = dict()
                 r_info['host'] = host
                 r_info['project'] = project
-                r_info['link'] = "http://servers.scs.myyearbook.com/index.php?page=search&type=hostname&searchterm="
+                r_info['link'] = "xxxx"
                 r_info['version'] = info['redis_version']
                 r_info['config_file'] = info['config_file']
                 r_info['tcp_port'] = info['tcp_port']
