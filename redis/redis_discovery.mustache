@@ -1,0 +1,32 @@
+<table>
+<thead>
+<tr>
+<th>Hostname</th>
+<th>Version</th>
+<th>Used Memory</th>
+<th>Config Location</th>
+<th>TCP Port</th>
+<th>Server Role</th>
+<th>Master Host</th>
+<th>Slave Information</th>
+<th>Database Information</th>
+<th>Project</th>
+</tr>
+</thead>
+<tbody>
+{{#redis}}
+<tr>
+<td><a href="{{link}}{{host}}">{{host}}</a></td>
+<td>{{version}}</td>
+<td>{{memory}}</td>
+<td>{{config_file}}</td>
+<td>{{tcp_port}}</td>
+<td>{{server_role}}</td>
+<td>{{master_host}} {{master_port}}</td>
+<td>{{slave_servers}}</td>
+<td>{{database_info}}</td>
+<td>{{project}}</td>
+</tr>
+{{/redis}}
+</tbody>
+</table>
